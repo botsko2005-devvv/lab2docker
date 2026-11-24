@@ -1,0 +1,17 @@
+Лабораторна робота №2
+Встановлення Docker та запуск першого контейнера
+
+1. Перевірка версії Docker:
+docker --version
+
+2. Запуск тестового контейнера:
+sudo docker run hello-world
+
+3. Перегляд усіх контейнерів:
+sudo docker ps -a
+
+4. Запуск вебсервера NGINX:
+sudo docker run -d -p 8080:80 nginx
+
+5. Перевірка контейнерів:
+sudo docker ps 
